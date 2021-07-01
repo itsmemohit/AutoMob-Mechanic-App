@@ -4,32 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Home | AutoMob-Mechanic</title>
-    <style>
-        li {
-            display: inline-block;
-        }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <!-- <link rel="stylesheet" href="css/nav.css"> -->
 </head>
 
 <body>
     <header>
-        <p>
-            <a href="home.html"><b>AutoMob-Mechanic</b></a>
-        </p>
-        <nav>
+        <div class="topnav">
+            <b id="home" class="projectname"><a href="home.html">AutoMob-Mechanic</b></a>
+            <nav style="float: right;">
+                <a href="home.html">Home </a>
+                <a href="services.html"> Services </a>
+                <a href="booking.html"> Booking </a>
+                <a href="mailto:contact@automob.co.in"> contact@automob.co.in &#9993;</a>
+                <a>999 999 999 &#9743;</a>
+            </nav>
+        </div>
+    </header>
+    <!-- <header>
+        <b id="home" class="projectname"><a href="home.html">AutoMob-Mechanic</b></a>
+        <nav class="nav-links">
+            <span></span>
             <ul style="list-style-type: none">
-                <li><a href="home.html">Home | </a></li>
-                <li><a href="services.html"> Services | </a></li>
-                <li><a href="booking.html"> Booking | </a></li>
-                <li><a href="mailto:contact@automob.co.in"> contact@automob.co.in &#9993; | </a></li>
-                <li>999 999 999 &#9743;</li>
+                <li class="navItems"><a href="home.html">Home | </a></li>
+                <li class="navItems"><a href="services.html"> Services | </a></li>
+                <li class="navItems"><a href="booking.html"> Booking | </a></li>
+                <li class="navItems"><a href="mailto:contact@automob.co.in"> contact@automob.co.in &#9993; | </a></li>
+                <li class="navItems" style="color: white;">999 999 999 &#9743;</li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     <main>
+        <section class="slideshow">
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <h1 class="slide-number">Red Rocks, Arizona</h1>
+                </div>
+                <div class="slide">
+                    <h1 class="slide-number">Golden Gate, United States</h1>
+                </div>
+                <div class="slide">
+                    <h1 class="slide-number">Miami Beach, Florida</h1>
+                </div>
+
+            </div>
+        </section>
         <img>
-        <hr>
         <h1>About Us</h1>
         <img src="images/home.jpg" height="250" width="300" alt="mobile">
         <br>
@@ -43,11 +66,10 @@
         </p>
         <a href="services.html">
             <button>Explore More</button>
-        </a><br><br><br><br><br><br><br>
+        </a>
         </section>
     </main>
     <footer>
-        <hr>
         <p>Copyright &copy; 2020 AutoMob-Mechanic All Rights Reserved.</p>
     </footer>
 </body>
