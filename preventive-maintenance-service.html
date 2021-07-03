@@ -5,48 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | AutoMob-Mechanic</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/maintenance-service.css">
 </head>
 <style>
-    li {
-        display: inline-block;
-    }
+
 </style>
 
 <body>
 
     <header>
-        <p>
-            <a href="home.html"><b>AutoMob-Mechanic</b></a>
-        </p>
-        <nav>
-            <ul style="list-style-type: none">
-                <li><a href="home.html">Home | </a></li>
-                <li><a href="services.html"> Services | </a></li>
-                <li><a href="booking.html"> Booking | </a></li>
-                <li><a href="mailto:contact@automob.co.in"> contact@automob.co.in &#9993; | </a></li>
-                <li>999 999 999 &#9743;</li>
-            </ul>
-        </nav>
+        <div class="topnav">
+            <b id="home" class="projectname"><a href="home.html">AutoMob-Mechanic</b></a>
+            <nav style="float: right;">
+                <a href="services.html"> Services </a>
+                <a href="booking.html"> Booking </a>
+                <a href="mailto:contact@automob.co.in"> contact@automob.co.in &#9993;</a>
+                <a>999 999 999 &#9743;</a>
+            </nav>
+        </div>
     </header>
     <main>
-        <hr>
-        <h1>Preventive Maintenance Service</h1>
-        <img src="images/preventive-maintenance-service.jpg" alt="mobile" height="350" width="600">
-        <p>Looking to keep your car functioning smoothly? Save money
-            and opt for AutoMob-Mechanic's periodic maintenance service. This service aims at:</p>
+        <div class="card">
+            <div class='left-half'>
+                <img src="images/preventive-maintenance-service.jpg" alt="mobile" height="350" width="600">
+            </div>
+            <div class="right-half">
+                <ul class="breadcrumb">
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li>
+                        Preventive Maintenance Service
+                    </li>
 
-        <ul>
-            <li>Air filter replacement.</li>
-            <li>Engine oil replacement.</li>
-            <li>Break pad cleaning.</li>
-        </ul>
-        <a href="booking.html">
-            <button>Book Service</button>
-        </a>
+                </ul>
+                <h2>Preventive Maintenance Service</h2>
+
+                <p style="color: red;"><i>Save: 35%</i></p>
+
+                <p>Looking to keep your car functioning smoothly?<br> Save money
+                    and opt for AutoMob-Mechanic's periodic maintenance service.<br> This service aims at:</p>
+
+                <ul>
+                    <li>Air filter replacement.</li>
+                    <li>Engine oil replacement.</li>
+                    <li>Break pad cleaning.</li>
+                </ul>
+                <!-- <div class="button">
+                    <a href="booking.html">
+                        <button>Book Service</button>
+                    </a>
+                </div> -->
+                <p><b>Offer Price:</b> <del>$15000</del> <ins style="color: red;">$9750</ins></p>
+                <div class="button">
+                    <a href="./booking.html">
+                        <input name="submit" type="submit" value="Book Services"></input><br><br><br><br>
+                    </a>
+                </div>
+
+            </div>
+        </div>
     </main>
 
     <footer>
-        <hr>
+
         <p>Copyright &copy; 2020 AutoMob-Mechanic All Rights Reserved.</p>
     </footer>
 

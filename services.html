@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | AutoMob-Mechanic</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/services.css">
 </head>
 
 <style>
@@ -15,31 +17,61 @@
 
 <body>
     <header>
-        <p><a href="home.html"><b>AutoMob-Mechanic</b></a></p>
-        <nav>
-            <ul style="list-style-type: none">
-                <li><a href="home.html">Home | </a></li>
-                <li><a href="services.html"> Services | </a></li>
-                <li><a href="booking.html"> Booking | </a></li>
-                <li><a href="mailto:contact@automob.co.in"> contact@automob.co.in &#9993; | </a></li>
-                <li>999 999 999 &#9743;</li>
-            </ul>
-        </nav>
+        <div class="topnav">
+            <b id="home" class="projectname"><a href="home.html">AutoMob-Mechanic</b></a>
+            <nav style="float: right;">
+                <a href="services.html"> Services </a>
+                <a href="booking.html"> Booking </a>
+                <a href="mailto:contact@automob.co.in"> contact@automob.co.in &#9993;</a>
+                <a>999 999 999 &#9743;</a>
+            </nav>
+        </div>
     </header>
     <main>
         <section>
-            <hr>
-            <h1>Our Services</h1>
+            <h1 class="heading"><u>Our <span style="color: tomato;">Services</span></u></h1>
 
-            <p> Our representatives are professionaly trained and skilled with latest and futuristic
-                techniques to provide a best quality service.
-            </p>
-
-            <p>At AutoMob-Mechanic, we provide a high class service to the customers for their happy and
+            <p class="description"> Our representatives are professionaly trained and skilled with latest and futuristic
+                techniques to provide a best quality service.At AutoMob-Mechanic, we provide a high class service to the
+                customers for their happy and
                 memorable driving experience.
             </p>
+            <div class="main-card">
+                <div class="card">
+                    <a style="color: black;" href="preventive-maintenance-service.html">
+                        <img src="/images/preventive-maintenance.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
 
-            <table>
+                            <h4><b>Preventive Maintenance</b></h4>
+                            <p>Periodically check and keep your car running.</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a style="color: black;" href="body-repair-service.html">
+                        <img src="/images/body-repair-card.jpg" alt="Avatar" style="width:83%">
+                        <div class="container">
+
+                            <h4><b>Body Repair</b></h4>
+                            <p>Periodically check and keep your car running.</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a style="color: black;" href="car-care-service.html">
+                        <img src="/images/car-care-card.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+
+                            <h4><b>Car Care</b></h4>
+                            <p>Periodically check and keep your car running.</p>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- <table>
                 <tr>
                     <th>Preventive Maintenance Service</th>
                     <th>Body Repair Service</th>
@@ -77,13 +109,12 @@
                         </a>
                     </td>
                 </tr>
-            </table>
+            </table> -->
         </section>
         <br><br>
         <br>
     </main>
     <footer>
-        <hr>
         <p>Copyright &copy; 2020 AutoMob-Mechanic All Rights Reserved.</p>
     </footer>
 
