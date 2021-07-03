@@ -1,0 +1,92 @@
+
+   .left-half {
+    padding-top: 30px;
+    position: absolute;
+    
+    width: 50%;
+  }
+  /*
+  .right-half {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 60px;
+    right: 0px;
+    width: 50%;
+  } */
+
+  div{
+    padding-bottom:10px;
+}
+
+#errorMsg{
+    color:red;
+}
+
+input[type="text"],input[type="email"],input[type="password"],input[type="date"],input[type="number"]{
+    font-size: 14px;
+    width: 40%;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    border-radius: 0.25rem;
+    border:1px solid gray;
+}
+
+input[type="tel"]{
+    font-size: 14px;
+    width: 29.5%;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    border-radius: 0.25rem;
+    border:1px solid gray;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+main{
+    margin-left:50px;
+}
+
+select{
+    font-size: 14px;
+    width: 10%;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    
+    border-radius: 0.25rem;
+    border:1px solid gray;
+}
+
+input[type=submit]:hover {
+  background-color: #c53522;
+}
+
+input[type=submit] {
+  background-color: #c53522;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.right-half {
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 60px;
+  right: 0px;
+  width: 50%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.submitbutton{
+  text-align: center;
+  padding-left: 600px;
+}

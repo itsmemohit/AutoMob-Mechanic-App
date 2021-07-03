@@ -42,4 +42,26 @@ body{
     font-size:14px;
 }
 
+main{
+    text-align:center;
+    margin-top: 100px;
+}
 
+td{
+    padding:10px;
+}
+
+.left-half {
+    padding-top: 60px;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+  }
+  
+  .right-half {
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 60px;
+    right: 0px;
+    width: 50%;
+  }

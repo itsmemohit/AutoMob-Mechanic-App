@@ -5,26 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | AutoMob-Mechanic</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/car-care-service.css">
 </head>
 
 <body>
 
     <header>
-        <p>
-            <a href="home.html"><b>AutoMob-Mechanic</b></a>
-        </p>
-        <nav>
-            <ul style="list-style-type: none">
-                <li><a href="home.html">Home | </a></li>
-                <li><a href="services.html"> Services | </a></li>
-                <li><a href="booking.html"> Booking | </a></li>
-                <li><a href="mailto:contact@automob.co.in"> contact@automob.co.in &#9993; | </a></li>
-                <li>999 999 999 &#9743;</li>
-            </ul>
-        </nav>
+        <div class="topnav">
+            <b id="home" class="projectname"><a href="home.html">AutoMob-Mechanic</b></a>
+            <nav style="float: right;">
+                <a href="services.html"> Services </a>
+                <a href="booking.html"> Booking </a>
+                <a href="mailto:contact@automob.co.in"> contact@automob.co.in &#9993;</a>
+                <a>999 999 999 &#9743;</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <hr>
+    <!-- <main>
+
         <h1>Car care Service</h1>
         <img src="images/car-care-service.jpg" alt="mobile" height="350" width="600">
         <p>Looking to keep your car neat and clean? Save money and opt for AutoMob-Mechan
@@ -36,13 +35,56 @@
             <li>Protective coating.</li>
             <li>Dashboard polishing</li>
         </ul>
-        <a href="booking.html">
-            <button>Book Service</button>
-        </a>
+        
+        <div class="button">
+            <input name="submit" type="submit" value="Book Services"></input><br><br><br><br>
+        </div>
+    </main> -->
+    <main>
+        <div class="card">
+            <div class='left-half'>
+                <img src="images/car-care-service.jpg" alt="mobile" height="370" width="600">
+            </div>
+            <div class="right-half">
+                <ul class="breadcrumb">
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li>
+                        Car care Service
+                    </li>
+
+                </ul>
+                <h2>Car care Service</h2>
+
+                <p style="color: red;"><i>Save: 20%</i></p>
+
+                <p>Looking to keep your car neat and clean?<br> Save money and opt for AutoMob-Mechan
+                    care service.<br> We offer an extensive range of car wash and cleaning services such as:</p>
+
+                <ul>
+                    <li>Basic car washing and Vacuuming.</li>
+                    <li>Detailed interior and upholstery cleaning.</li>
+                    <li>Protective coating.</li>
+                    <li>Dashboard polishing</li>
+                </ul>
+                <!-- <div class="button">
+                    <a href="booking.html">
+                        <button>Book Service</button>
+                    </a>
+                </div> -->
+                <p><b>Offer Price:</b> <del>$15000</del> <ins style="color: red;">$4000</ins></p>
+                <div class="button">
+                    <a href="./booking.html">
+                        <input name="submit" type="submit" value="Book Services"></input><br><br><br><br>
+                    </a>
+                </div>
+
+            </div>
+        </div>
     </main>
 
     <footer>
-        <hr>
+
         <p>Copyright &copy; 2020 AutoMob-Mechanic All Rights Reserved.</p>
     </footer>
 
